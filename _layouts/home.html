@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+  
+  <ul class="post-list">
+    {% for post in site.posts limit: 5 %}
+      <li>
+        {% assign date_format = "%-d %b, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h2 class="homepage">
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        <span>
+          {% for tag in post.tags %}
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+            <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>#{{ tag_name }}</nobr></code></a>
+          {% endfor %}
+        </span>
+        <p>{{ post.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+  <span class="post-meta">Older stuff</span>
+  <h2 class="homepage">
+    <a class="post-link" href="/all-posts">All of my posts</a>
+  </h2>
+  <p>All of my posts are gathered <a href="/all-posts">here&#8230;</a></p>
+
+</div>

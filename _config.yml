@@ -29,6 +29,7 @@ github_username:  simonrolfmore
 mastodon_username: hachyderm.io/@cloudthethings
 linkedin_username: simonrolfmore
 lang: en-GB
+permalink: /:categories/:year/:month/:day/:title
 
 # Build settings
 theme: jekyll-theme-cayman

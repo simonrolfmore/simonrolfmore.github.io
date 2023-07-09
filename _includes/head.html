@@ -1,0 +1,21 @@
+<head>
+  <meta charset="UTF-8">
+
+  {% seo %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#053566">
+  <meta name="msapplication-navbutton-color" content="#053566">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="#053566">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="shortcut icon" href="/assets/favicon.png">
+  <script src="https://kit.fontawesome.com/617952e93e.js" crossorigin="anonymous"></script>
+  
+  {% if site.tags != "" %}
+    {% include collect-tags.html %}
+  {% endif %}
+
+</head>

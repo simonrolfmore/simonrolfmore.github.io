@@ -1,0 +1,36 @@
+<footer class="site-footer">
+  <ul class="fa-ul">
+    {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" title="My GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.linkedin_username %}
+    <li>
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank"  title="My LinkedIn">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+      </a>
+    </li>
+    {% endif %}
+    {% if site.mastodon_username %}
+    <li>
+      <a rel="me" href="https://{{ site.mastodon_username }}" target="_blank"  title="My Mastodon account">
+        <i class="fa-brands fa-mastodon" aria-hidden="true"></i>
+      </a>
+    </li>
+    {% endif %}
+    <li>
+        <a href="{{ site.url }}/feed.xml" target="_blank" title="RSS Feed of my posts">
+          <i class="fa fa-rss" aria-hidden="true"></i>
+         </a>
+    </li>
+    <li>
+      <a href="/CV.pdf" target="_blank" title="My CV in PDF format">
+        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+      </a>
+  </li>
+  </ul>
+  <span class="site-footer-credits">Content <a href="/license">CC-BY-SA 4.0</a> licensed by {{ site.author }} unless otherwise noted.</span>
+</footer>

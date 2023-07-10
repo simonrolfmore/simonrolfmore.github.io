@@ -8,7 +8,11 @@ That means, you can use anything posted here for any purpose you like, including
 
 If you use anything here for anything I deem evil or even merely unpleasant (including but not limited to racism, homophobia, transphobia, or cruelty in general), I *reserve the right to call you out*, make fun of you, not support you or your products, and generally assert my right to make moral decisions.
 
-The software here (CSS, Liquid scripts, Jekyll customisations) is [MIT Licensed](https://opensource.org/license/MIT/), as is Jekyll itself.
+The two fonts I use ([Raleway](https://fonts.google.com/specimen/Raleway/about?query=raleway) and [Cabin](https://fonts.google.com/specimen/Cabin/about?query=cabin)) are from [Google Fonts](https://fonts.google.com), and both are licensed under the [SIL Open Font License, 1.1](http://scripts.sil.org/OFL).
+
+The favicon is also generated from the Raleway font, courtesy of [Favicon.io](https://favicon.io).
+
+The software here (CSS, Liquid scripts, Jekyll customisations) is [MIT Licensed](https://opensource.org/license/MIT/), as is Jekyll itself. Feel free to use any of my customisations, code etc - they're all in the [GitHub repo for this site](https://github.com/simonrolfmore/simonrolfmore.github.io). I would love to hear about it if you find anything useful, but you aren't obliged by the license to do so.
 
 ## MIT License
 

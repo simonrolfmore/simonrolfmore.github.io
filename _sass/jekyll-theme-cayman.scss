@@ -462,9 +462,16 @@ ul.fa-ul li a i {
 .creative-commons-logos {
   font-size: 96px;
 
+  @include small { 
+    font-size: 64px;
+  }
+
   i {
     color: $header-bg-color;
-    padding: 20px;
+
+    @include large {
+      padding: 20px;
+    }
   }
 }
 

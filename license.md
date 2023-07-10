@@ -6,7 +6,7 @@ permalink: /license
 
 That means, you can use anything posted here for any purpose you like, including commercial use. Just credit me.
 
-If you use anything here for anything I deem evil or even merely unpleasant (including but not limited to racism, homophobia, transphobia, or cruelty in general), I *reserve the right to call you out*, make fun of you, not support you or your products, and generally assert my right to make moral decisions.
+If you use anything here for something I deem evil or even merely unpleasant (including but not limited to racism, homophobia, transphobia, or cruelty in general), I *reserve the right to call you out*, make fun of you, not support you or your products, and generally assert my duty to make moral decisions.
 
 The two fonts I use ([Raleway](https://fonts.google.com/specimen/Raleway/about?query=raleway) and [Cabin](https://fonts.google.com/specimen/Cabin/about?query=cabin)) are from [Google Fonts](https://fonts.google.com), and both are licensed under the [SIL Open Font License, 1.1](http://scripts.sil.org/OFL).
 

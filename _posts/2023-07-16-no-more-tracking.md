@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Removing tracking!"
-description: "Maybe I don't want Google and Font Awesome to instrument my visitors"
+title:  "Removing tracking"
+description: "Maybe I don't want Google and Font Awesome to instrument my visitors."
 date:   2023-07-16 21:38:42 +0100
 tags: blog css
 ---

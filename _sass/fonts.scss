@@ -2,25 +2,25 @@
     font-family: 'Raleway';
     font-display: swap;
     src: 
-        url('/fonts/Raleway-VF.woff') format('woff'),
-        url('/fonts/Raleway-VF.woff2') format('woff2');
+        url('/fonts/Raleway-VF.woff2') format('woff2'),
+        url('/fonts/Raleway-VF.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Raleway';
     font-display: swap;
     font-style: italic;
-    src: 
-        url('/fonts/Raleway-Italic-VF.woff') format('woff'),
-        url('/fonts/Raleway-Italic-VF.woff2') format('woff2');
+    src:
+        url('/fonts/Raleway-Italic-VF.woff2') format('woff2'), 
+        url('/fonts/Raleway-Italic-VF.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Cabin';
     font-display: swap;
     src: 
-        url('/fonts/Cabin.woff') format('woff'),
-        url('/fonts/Cabin.woff2') format('woff2');
+        url('/fonts/Cabin.woff2') format('woff2'),
+        url('/fonts/Cabin.woff') format('woff');
 }
 
 @font-face {
@@ -28,6 +28,6 @@
     font-display: swap;
     font-style: italic;
     src: 
-        url('/fonts/Cabin-Italic.woff') format('woff'),
-        url('/fonts/Cabin-Italic.woff2') format('woff2');
+        url('/fonts/Cabin-Italic.woff2') format('woff2'),
+        url('/fonts/Cabin-Italic.woff') format('woff');
 }

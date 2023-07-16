@@ -6,6 +6,11 @@ layout: default
 
   {{ content }}
   
+  <h1 class="homepage">Mastodon posts!</h1>
+  {% include mastodon.html %}
+
+  <h1 class="homepage">Blog posts!</h1>
+
   <ul class="post-list">
     {% for post in site.posts limit: 5 %}
       <li>
@@ -28,6 +33,5 @@ layout: default
   <h2 class="homepage">
     <a class="post-link" href="/all-posts">All of my posts</a>
   </h2>
-  <p>All of my posts are gathered <a href="/all-posts">here&#8230;</a></p>
-
+  <p>All of my blog posts are gathered <a href="/all-posts">here&#8230;</a></p>
 </div>

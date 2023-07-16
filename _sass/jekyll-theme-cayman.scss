@@ -1,6 +1,8 @@
 @import "normalize";
 @import "rouge-github";
 @import "variables";
+@import "mastodon-timeline";
+@import "fonts";
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -36,7 +38,7 @@ body {
 a {
   color: $body-link-color;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: 500;
   &:hover {
     color: darken($color: $body-link-color, $amount: 30%)
   }
@@ -168,6 +170,7 @@ a {
 .post-list li {
   padding: 30px 0;
   border-bottom: solid 1px $hr-border-color;
+
 }
 
 .post-meta {
@@ -176,9 +179,9 @@ a {
 
 a.post-link {
   color: $section-headings-color;
-  font-size: 2.25rem;
+  font-size: 2rem;
   text-decoration: none;
-
+  font-weight: 400;
   &:hover {
     color: $hover-title-color;
   }
@@ -189,6 +192,7 @@ ul.fa-ul {
   width: 250px;
   margin-left: auto;
   margin-right: auto;
+  padding-inline-start: 0;
 }
 
 ul.fa-ul li {
@@ -196,7 +200,7 @@ ul.fa-ul li {
 	float: left;
 }
 
-ul.fa-ul li a i {
+ul.fa-ul li a svg {
 	//background: $section-headings-color;
 	color: $header-bg-color;
   &:hover {
@@ -311,13 +315,19 @@ ul.fa-ul li a i {
   h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     color: $section-headings-color;
     font-family: $heading-font
   }
 
+  h1.homepage {
+    color: $header-bg-color;
+    font-weight: 700;
+  }
+
   h2.homepage {
     margin-bottom: 0rem;
+    font-weight: 400;
   }
 
   p {
@@ -459,19 +469,16 @@ ul.fa-ul li a i {
   }
 }
 
-.creative-commons-logos {
-  font-size: 96px;
-
+.creative-commons-logos svg {
+  width: 96px;
+  color: $header-bg-color;
+  margin: 10px;
   @include small { 
-    font-size: 64px;
+    width: 64px;
   }
 
-  i {
-    color: $header-bg-color;
-
-    @include large {
-      padding: 20px;
-    }
+  @include large {
+    margin: 20px;
   }
 }
 

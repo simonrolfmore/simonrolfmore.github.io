@@ -13,7 +13,7 @@ If you'd rather not read any more online and want a PDF, [here you go](/CV.pdf).
 
 ## Currently
 
-I work at [Brunswick Corporation](https://www.brunswick.com/) (formerly Navico), helping software and hardware teams build security and identity systems for millions of users and devices, serve over half a billion encrypted map tiles a month, and integrate with a ton of complex business systems.
+I work at [Brunswick Corporation](https://www.brunswick.com/) (acquirers of Navico, my previous-but-one employer), helping software and hardware teams build security and identity systems for millions of users and devices, serve over half a billion encrypted map tiles a month, and integrate with a ton of complex business systems.
 
 ![Shaded Relief maps](/images/work/shaded-relief.jpg "Example of shaded relief maps")
 

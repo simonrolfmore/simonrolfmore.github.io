@@ -6,10 +6,10 @@ layout: default
 
   {{ content }}
   
-  <h1 class="homepage">Mastodon posts!</h1>
+  <h2 class="homepage">Short stuff from Mastodon</h1>
   {% include mastodon.html %}
 
-  <h1 class="homepage">Blog posts!</h1>
+  <h2 class="homepage">Longer stuff from this blog</h1>
 
   <ul class="post-list">
     {% for post in site.posts limit: 5 %}
